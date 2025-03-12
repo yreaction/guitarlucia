@@ -1,0 +1,188 @@
+/* GuitarLearningTool.css */
+.guitar-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8e6; /* Fondo color claro ámbar */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5a3a1a; /* Texto color madera oscuro */
+  }
+  
+  .app-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #8b4513; /* Marrón caoba para título principal */
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #b25900; /* Naranja-marrón para subtítulos */
+  }
+  
+  .song-selector {
+    margin-bottom: 24px;
+  }
+  
+  .song-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
+  }
+  
+  .song-button {
+    padding: 12px;
+    border-radius: 6px;
+    text-align: left;
+    border: none;
+    background-color: #ffdb99; /* Color ámbar claro */
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .song-button:hover {
+    background-color: #ffc457; /* Ámbar más intenso al pasar el ratón */
+  }
+  
+  .song-button.selected {
+    background-color: #cc7000; /* Naranja oscuro para seleccionado */
+    color: white;
+  }
+  
+  .song-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .song-artist {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .song-difficulty {
+    font-size: 12px;
+    margin-top: 4px;
+    opacity: 0.8;
+  }
+  
+  .song-display {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .song-header {
+    margin-bottom: 16px;
+  }
+  
+  .song-display-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b4513; /* Marrón caoba */
+  }
+  
+  .song-display-artist {
+    font-size: 16px;
+    color: #b25900; /* Naranja-marrón */
+  }
+  
+  .chord-info {
+    margin-bottom: 20px;
+  }
+  
+  .chord-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5a3a1a; /* Marrón oscuro */
+  }
+  
+  .chord-position {
+    font-size: 14px;
+    color: #b25900; /* Naranja-marrón */
+  }
+  
+  .fretboard {
+    border-left: 2px solid #aaa;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .string {
+    display: flex;
+    border-bottom: 1px solid #000;
+    height: 32px;
+  }
+  
+  .fret {
+    height: 32px;
+    width: 50px;
+    border-right: 1px solid #aaa;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nut {
+    background-color: #f0f0f0;
+  }
+  
+  .finger-dot {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #4a7dff; /* Azul para los puntos de dedos */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navigation-controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .nav-button {
+    padding: 8px 16px;
+    background-color: #e69500; /* Naranja ámbar */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover:not(.disabled) {
+    background-color: #cc7000; /* Naranja ámbar oscuro */
+  }
+  
+  .nav-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .select-prompt {
+    text-align: center;
+    padding: 32px;
+    color: #b25900; /* Naranja-marrón */
+    font-style: italic;
+  }
+  
+  .app-footer {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #b25900; /* Naranja-marrón */
+  }
