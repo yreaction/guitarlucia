@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/guitarlucia/static/css/main.307059bf.chunk.css",
+    "main.js": "/guitarlucia/static/js/main.44dabd6f.chunk.js",
+    "main.js.map": "/guitarlucia/static/js/main.44dabd6f.chunk.js.map",
+    "runtime-main.js": "/guitarlucia/static/js/runtime-main.58457d8e.js",
+    "runtime-main.js.map": "/guitarlucia/static/js/runtime-main.58457d8e.js.map",
+    "static/js/2.1dca0142.chunk.js": "/guitarlucia/static/js/2.1dca0142.chunk.js",
+    "static/js/2.1dca0142.chunk.js.map": "/guitarlucia/static/js/2.1dca0142.chunk.js.map",
+    "static/js/3.0bc56c22.chunk.js": "/guitarlucia/static/js/3.0bc56c22.chunk.js",
+    "static/js/3.0bc56c22.chunk.js.map": "/guitarlucia/static/js/3.0bc56c22.chunk.js.map",
+    "index.html": "/guitarlucia/index.html",
+    "precache-manifest.2a7d5350c856da8b04df57581e08f778.js": "/guitarlucia/precache-manifest.2a7d5350c856da8b04df57581e08f778.js",
+    "service-worker.js": "/guitarlucia/service-worker.js",
+    "static/css/main.307059bf.chunk.css.map": "/guitarlucia/static/css/main.307059bf.chunk.css.map",
+    "static/js/2.1dca0142.chunk.js.LICENSE.txt": "/guitarlucia/static/js/2.1dca0142.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58457d8e.js",
+    "static/js/2.1dca0142.chunk.js",
+    "static/css/main.307059bf.chunk.css",
+    "static/js/main.44dabd6f.chunk.js"
+  ]
+}
